@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+    <button bindtap='toLogin'> 打开弹框登录 </button>
+      <popLogin id='popLogin' bind:loginStatus="_loginStatus" title='用户登录' ></popLogin>
+</view>
